@@ -10,12 +10,12 @@ class WorldleAI:
     # loads all possible words for all guesses
     self.dictionary = dictionary
     
+    self.difficulty = difficulty
+    
     # word_space is the current collection of possible
     # words for the current word
     self.word_space = dictionary
     self.sort_word_space()
-
-    self.difficulty = difficulty
 
 
   def guess_word(self):
