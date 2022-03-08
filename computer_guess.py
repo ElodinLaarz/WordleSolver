@@ -1,5 +1,7 @@
 # Pass in a guess
 
+# TODO: Implement some Information Theory guessing based upon the workings of 3Blue1Brown.
+
 secret_word = ''
 
 def color_word(word_guessed):
